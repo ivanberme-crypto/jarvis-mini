@@ -1,0 +1,69 @@
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h1 {
+  margin: 0 0 16px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 300px;
+  margin-bottom: 16px;
+}
+
+.chat p {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+.user {
+  align-self: flex-end;
+  background: #2f5bd8;
+  color: white;
+}
+
+.assistant {
+  align-self: flex-start;
+  background: #222b45;
+}
+
+.error {
+  color: #f87171;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #3a4468;
+  background: #141a2e;
+  color: inherit;
+  font: inherit;
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 0;
+  background: #2f5bd8;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
